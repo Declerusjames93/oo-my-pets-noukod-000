@@ -1,5 +1,6 @@
 class Owner
   # code goes here
+<<<<<<< HEAD
   attr_accessor :name, :pets
   		attr_reader :species
 
@@ -73,3 +74,24 @@ class Owner
 	end
 
 end
+=======
+  attr_reader :name
+   attr_accessor :mood
+  @@all = []
+  def initialize(name, mood = "nervous")
+    @name = name
+    @mood = mood
+  end
+def buy_cat
+
+end
+
+def buy_dog
+
+end
+
+def buy_fish
+
+end
+end
+>>>>>>> 2e2dfc2a8f71c2736f9066b2c90ed7f4c6ae59db
